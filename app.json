@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Windtell",
+    "slug": "windtell",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_rond.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo_windtell.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_windtell.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+    "output":"static",
+    "favicon": "./assets/logo_rond.png"
+  }
+  }
+}
