@@ -1,0 +1,86 @@
+[debug] [2025-04-03T09:38:51.341Z] ----------------------------------------------------------------------
+[debug] [2025-04-03T09:38:51.344Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-03T09:38:51.345Z] CLI Version:   13.35.1
+[debug] [2025-04-03T09:38:51.345Z] Platform:      win32
+[debug] [2025-04-03T09:38:51.345Z] Node Version:  v18.20.8
+[debug] [2025-04-03T09:38:51.347Z] Time:          Thu Apr 03 2025 20:38:51 GMT+1100 (heure normale de la Nouvelle-Calédonie)
+[debug] [2025-04-03T09:38:51.347Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-03T09:38:51.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-03T09:38:51.360Z] > authorizing via signed-in user (camhdyo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\camin\Downloads\Windtell
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-04-03T09:39:03.211Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:03.212Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:03.216Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-04-03T09:39:03.216Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"windtell","name":"windtell"}
+[debug] [2025-04-03T09:39:04.754Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-04-03T09:39:04.754Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-04-03T09:39:05.124Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID windtell. Please try again with a unique project ID.
+[debug] [2025-04-03T09:39:13.651Z] ----------------------------------------------------------------------
+[debug] [2025-04-03T09:39:13.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-03T09:39:13.654Z] CLI Version:   13.35.1
+[debug] [2025-04-03T09:39:13.654Z] Platform:      win32
+[debug] [2025-04-03T09:39:13.654Z] Node Version:  v18.20.8
+[debug] [2025-04-03T09:39:13.656Z] Time:          Thu Apr 03 2025 20:39:13 GMT+1100 (heure normale de la Nouvelle-Calédonie)
+[debug] [2025-04-03T09:39:13.656Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-03T09:39:13.664Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-03T09:39:13.664Z] > authorizing via signed-in user (camhdyo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\camin\Downloads\Windtell
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-03T09:39:19.345Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:19.345Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:19.347Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2025-04-03T09:39:20.625Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2025-04-03T09:39:20.625Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2025-04-03T09:39:22.728Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:22.728Z] Checked if tokens are valid: true, expires at: 1743675877241
+[debug] [2025-04-03T09:39:22.729Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/windtell:addFirebase [none]
+[debug] [2025-04-03T09:39:23.581Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/windtell:addFirebase 403
+[debug] [2025-04-03T09:39:23.582Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/windtell:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-03T09:39:23.584Z] Request to https://firebase.googleapis.com/v1beta1/projects/windtell:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-03T09:39:24.250Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/windtell:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\camin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
