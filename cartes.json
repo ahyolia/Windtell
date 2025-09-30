@@ -1,5 +1,5 @@
 {
-    "evenements": [
+  "evenements": [
     {
       "id": 1,
       "type": "evenement",
@@ -70,28 +70,28 @@
       "logo": "./assets/logo_event.png",
       "description": "Rejouer une deuxième fois."
     },
-    {
-      "id": 11,
-      "type": "evenement",
-      "titre": "Lien spectral",
-      "logo": "./assets/logo_event.png",
-      "description": "Immobiliser un joueur au choix pendant un tour."
-    },
-    {
-      "id": 12,
-      "type": "evenement",
-      "titre": "Vents tourbillonnants - Droite",
-      "logo": "./assets/logo_event.png",
-      "description": "Tous les joueurs doivent avancer de deux nuages vers leur droite."
-    },
-    {
-      "id": 13,
-      "type": "evenement",
-      "titre": "Vents tourbillonnants - Gauche",
-      "logo": "./assets/logo_event.png",
-      "description": "Tous les joueurs doivent avancer de deux nuages vers leur gauche."
-    },
-    {
+      {
+        "id": 11,
+        "type": "evenement",
+        "titre": "Lien spectral",
+        "logo": "./assets/logo_event.png",
+        "description": "Immobiliser un joueur au choix pendant un tour."
+      },
+      {
+        "id": 12,
+        "type": "evenement",
+        "titre": "Vents tourbillonnants - Droite",
+        "logo": "./assets/logo_event.png",
+        "description": "Tous les joueurs doivent avancer de deux nuages vers leur droite."
+      },
+      {
+        "id": 13,
+        "type": "evenement",
+        "titre": "Vents tourbillonnants - Gauche",
+        "logo": "./assets/logo_event.png",
+        "description": "Tous les joueurs doivent avancer de deux nuages vers leur gauche."
+      },
+      {
       "id": 14,
       "type": "evenement",
       "titre": "Tempête du Néant",
@@ -105,844 +105,843 @@
       "logo": "./assets/logo_event.png",
       "description": "Le joueur peut choisir un niveau du plateau (sauf celui où il se trouve) et le tourner d'une zone, dans la direction de son choix."
     }
-    ],
+  ],
 
-    "enigmes": [
-      {
-        "id": 1,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un arbre qui donne à manger,\nMon tronc est droit, ma tête est légère.\nJe porte des fruits qui tombent sans bruit,\nEt mon eau est fraîche, même sous le soleil brûlant.",
-        "réponse": "Le cocotier"
-      },
-      {
-        "id": 2,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un personnage qui a sauvé un ami,\nMais il a ri de ma tête chauve, oh quel ennui !\nJe l'ai puni avec une épine pointue,\nMaintenant, nous sommes séparés, sans amitié.",
-        "réponse": "Le rat du conte “le poulpe et le rat”"
-      },
-      {
-        "id": 3,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis porté par les vagues,\nMais je raconte les origines,\nDans les îles Loyauté, on me sculpte,\nQui suis-je ?",
-        "réponse": "La pirogue",
-        "explication": "Symbole de navigation et de récits ancestraux, souvent sculptés dans les traditions des Loyauté."
-      },
-      {
-        "id": 4,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un arbre sacré.\nIndice 2 : Mon bois sert à construire les cases.\nIndice 3 : Je suis lié aux ancêtres dans les légendes.\nIndice 4 : On me trouve souvent près des lieux de culte.",
-        "réponse": "Le pin colonnaire",
-        "explication": "Cet arbre est vénéré et utilisé dans la construction traditionnelle."
-      },
-      {
-        "id": 5,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un bug sur ordinateur.\nMon deuxième est un pronom.\nMon tout est un trésor turquoise qui fait la fierté de la Nouvelle-Calédonie.",
-        "réponse": "Lagon",
-        "explication": "\"Lag\" (bug) + \"on\" (pronom) = Lagon, les eaux turquoise de la Nouvelle-Calédonie."
-      },
-      {
-        "id": 6,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel est cet objet offert dans la coutume pour demander pardon/d'accueil ?\na) Une natte\nb) Un igname\nc) Un coquillage\nd) Une hache",
-        "réponse": "a) Une natte",
-        "explication": "Les nattes sont souvent échangées dans les gestes coutumiers."
-      },
-      {
-        "id": 7,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un oiseau, mais pas pour voler,\nDans les contes, je parle et je conseille,\nÀ Hienghène, je suis une roche,\nQui suis-je ?",
-        "réponse": "La Poule de Hienghène",
-        "explication": "Cette formation rocheuse évoque un oiseau et inspire des légendes."
-      },
-      {
-        "id": 8,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est l'endroit où je m'endors,\nMon second est une personne qui amusait les rois,\nMon tout est une île où les esprits dansent.",
-        "réponse": "Lifou",
-        "explication": "\"Li\" (article) + \"fou\" (le feu brûle fort) = Lifou, île des Loyauté riche en légendes."
-      },
-      {
-        "id": 9,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel poisson est lié à une légende sur la création des rivières ?\na) La carangue\nb) Le poisson-perroquet\nc) Le requin\nd) La murène",
-        "réponse": "d) La murène",
-        "explication": "Dans certains récits, la murène creuse les cours d'eau."
-      },
-      {
-        "id": 10,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "On me cultive, on me partage,\nSymbole de vie et héritage.\nQui suis-je ?",
-        "réponse": "L'igname",
-        "explication": "Aliment central et symbole familial dans la culture kanak."
-      },
-      {
-        "id": 11,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un lieu de mystère.\nIndice 2 : On dit que des âmes y errent.\nIndice 3 : À Bourail, je suis profond.\nIndice 4 : Mon nom évoque la peur.",
-        "réponse": "Le gouffre de Bourail",
-        "explication": "Associé à des récits mystérieux locaux."
-      },
-      {
-        "id": 12,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Un enfant calme nommé Pacifique crée une île magnifique protégée par une barrière de corail, qui donne naissance à trois enfants.\nDevine le conte !",
-        "réponse": "L'amour du Pacifique"
-      },
-      {
-        "id": 13,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel élément naturel représente la force des ancêtres ?\na) Le vent\nb) La mer\nc) La pierre\nd) Le feu",
-        "réponse": "c) La pierre",
-        "explication": "Les pierres sacrées sont des symboles ancestraux."
-      },
-      {
-        "id": 14,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une danse qui tourne en spirale,\nAvec tambours et écorces, je rythme le cercle.\nHommes et femmes séparés, mais unis dans le mouvement.\nQui suis-je ?",
-        "réponse": "Le pilou",
-        "explication": "Le pilou, une danse traditionnelle kanak de Nouvelle-Calédonie."
-      },
-      {
-        "id": 15,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je me nourris de fruits,\nJe vis la nuit,\nJe suis un animal emblématique des forêts calédoniennes.\nQui suis-je ?",
-        "réponse": "Roussette"
-      },
-      {
-        "id": 16, 
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel arbre sert de refuge dans le conte “Nimurë, l'igname du chef” ?\na) Le cocotier\nb) Le banyan\nc) Le flamboyant\nd) Le tamanou",
-        "réponse": "b) Le banyan",
-        "explication": "Ses racines aériennes abritent des esprits dans les récits."
-      },
-      {
-        "id": 17,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une étoffe,\nDans la coutume, je lie les clans,\nOn me plie avec soin,\nQui suis-je ?",
-        "réponse": "Le manou",
-        "explication": "Étoffe offerte lors des échanges coutumiers."
-      },
-      {
-        "id": 18,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un animal marin.\nIndice 2 : Dans les contes, je suis un gardien.\nIndice 3 : Mon dos porte des légendes.",
-        "réponse": "La tortue",
-        "explication": "Animal sacré dans les récits des Loyauté."
-      },
-      {
-        "id": 19,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un coquillage géant,\nJe me renferme quand on m'approche trop,\nJe filtre l'eau pour survivre,\nJe suis un trésor pour les hommes.",
-        "réponse": "Le bénitier"
-      },
-      {
-        "id": 20,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un des oiseaux les plus intelligents du monde. Qui suis-je ?\na) Le cagou\nb) Le notou\nc) Le corbeau calédonien\nd) La roussette",
-        "réponse": "c) Le corbeau calédonien"
-      },
-      {
-        "id": 21,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un esprit guide,\nDans les récits, je forme un lien entre ciel et terre,\nJe veille sur les lutins et les créatures de la mer et de la forêt,\nJe suis à l'origine de la vie et de la sagesse.\nQui suis-je ?",
-        "réponse": "Kanaké",
-        "explication": "Dans le mythe kanak, Kanaké est un esprit lutin qui joue un rôle central dans la création et l'enseignement. Il guide Téâ Kanaké, le premier homme, et lui apprend à vivre en harmonie avec la nature et les esprits."
-      },
-      {
-        "id": 22,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un cadeau de la lune,\nNé d'une igname blessée,\nJe vole des restes pour survivre,\nMais je suis le fils que vous attendiez.",
-        "réponse": "L'enfant igname",
-        "explication": "Dans cette légende, l'enfant igname est un cadeau de la lune, né après qu'une igname ait été blessée."
-      },
-      {
-        "id": 23,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quelle danse célèbre les ancêtres ?\na) Le haka\nb) Le pilou\nc) La valse calédonienne\nd) Le tamouré",
-        "réponse": "b) Le pilou",
-        "explication": "Danse rituelle kanak."
-      },
-      {
-        "id": 24,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis rayé, marin et terrestre,\nVenimeux mais rarement agressif.\nJe chasse en mer, je me repose sur terre.\nQui suis-je ?",
-        "réponse": "Le tricot rayé"
-      },
-      {
-        "id": 25,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis une montagne.\nIndice 2 : On dit que j'abrite un esprit.\nIndice 3 : Près de Koné, je domine.\nIndice 4 : Mon nom est un mystère.",
-        "réponse": "Le Mont Panié",
-        "explication": "Point culminant, entouré de légendes."
-      },
-      {
-        "id": 26,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un pronom possessif,\nMon second est le diable des mers,\nMon tout est un lieu de légendes dans les Loyauté.",
-        "réponse": "Maré",
-        "explication": "\"Ma\" (possessif) + \"raie\" = Maré, île riche en récits traditionnels."
-      },
-      {
-        "id": 27,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel élément est souvent utilisé pour sculpter les flèches faîtières ?\na) Le gaïac\nb) Le bois de houp\nc) Le santal\nd) Le bambou",
-        "réponse": "b) Le bois de houp",
-        "explication": "Arbre sacré, le houp est prisé pour les sculptures rituelles."
-      },
-      {
-        "id": 28,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une épreuve mais aussi une aide,\nDans les contes, je parle aux marins,\nOn m'écoute pour naviguer,\nQui suis-je ?",
-        "réponse": "Le vent",
-        "explication": "Dans les récits de navigation kanak, le vent est un esprit communicant."
-      },
-      {
-        "id": 29,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis une créature de la mer.\nIndice 2 : Dans certaines cultures, je suis un symbole de force et de protection.\nIndice 3 : Je suis un animal totem.",
-        "réponse": "Le requin",
-        "explication": "Animal totem dans certaines histoires côtières."
-      },
-      {
-        "id": 30,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une tour qui guide les marins.\nJe mesure 56 mètres de haut.\nJe suis situé sur une petite île au large de Nouméa.\nJe suis une destination touristique en Nouvelle-Calédonie.",
-        "réponse": "Le phare Amédée"
-      },
-      {
-        "id": 31,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un coquillage marin,\nMon intérieur est une spirale divine,\nLes anciens me voyaient comme un navire,\nEt mon nom est lié à la mer et au ciel.",
-        "réponse": "Le nautile"
-      },
-      {
-        "id": 32,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une flèche, mais pas pour tirer,\nAu sommet des cases je veille,\nEn bois, je pointe le ciel,\nQui suis-je ?",
-        "réponse": "La flèche faîtière",
-        "explication": "Sculpture symbolique sur les cases kanak, représentant les ancêtres."
-      },
-      {
-        "id": 33,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un pronom qui rassemble,\nMon second est un adverbe pour s'opposer,\nMon troisième est une voyelle,\nMon tout est une ville.",
-        "réponse": "Nouméa",
-        "explication": "\"Nous\" + \"mais\" = Nouméa, avec ses récits historiques et culturels."
-      },
-      {
-        "id": 34,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Dans le conte “La leçon du bénitier”, pourquoi le grand frère se personally-t-il en danger ?\na) Parce qu'il tombe dans un trou et est coincé\nb) Parce que la marée monte et l'eau le submerge\nc) Parce que des animaux l'attaquent\nd) Parce qu'il est impossible d'ouvrir le bénitier",
-        "réponse": "b) Parce que la marée monte et l'eau le submerge"
-      },
-      {
-        "id": 35,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis le plus petit, mais le plus sage,\nRejeté par mes frères, je réussis là où ils échouent,\nJe déterre avec patience ce que d'autres ne peuvent,\nEt je deviens le chef, malgré leur mépris.\nQui suis-je ?",
-        "réponse": "Le plus jeune frère du mythe de Lifou “Les 5 frères”",
-        "explication": "Dans cette histoire, le plus jeune frère, malgré son apparence fragile, réussit à déterrer le magnania là où ses frères ont échoué."
-      },
-      {
-        "id": 36,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un oiseau unique.\nIndice 2 : Je ne vole pas, mais je cours.\nIndice 3 : Mon cri est un aboiement.\nIndice 4 : Je suis une espèce endémique de la Nouvelle-Calédonie.",
-        "réponse": "Le cagou"
-      },
-      {
-        "id": 37,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un mot qu'on utilise pour choisir,\nMon second est un signe de victoire,\nMon troisième est une voyelle,\nMon tout est une île de récits des Loyautés.",
-        "réponse": "Ouvéa",
-        "explication": "\"Ou\" + \"v\" + “a” = Ouvéa, île des Loyauté."
-      },
-      {
-        "id": 38,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quels enfants donne l'île à Pacifique dans le conte L'amour de Pacifique ?\na) Ouvéa, Lifou et Maré\nb) Nouméa, Bourail et Koné\nc) Île des Pins, Belep et Hienghène",
-        "réponse": "a) Ouvéa, Lifou et Maré"
-      },
-      {
-        "id": 39,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Deux frères pêchent sur un récif,\nL'un vole toujours les trouvailles de l'autre,\nMais un jour, il se retrouve piégé,\nEt le plus jeune frère le libère après une promesse.\nQuel est le titre de cette histoire ?",
-        "réponse": "\"La leçon du bénitier\""
-      },
-      {
-        "id": 40,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Qu'est-ce que le poulpe lança sur le rat dans le conte “Le rat, la poule sultane et le poulpe” ?\na) Un fruit sec\nb) Une herbe coupante\nc) Une épine d'oursin\nd) Une pierre",
-        "réponse": "b) Une herbe coupante"
-      },
-      {
-        "id": 41,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Comment le cagou a-t-il aidé les autres oiseaux dans le conte “La légende du Cagou, roi des oiseaux” ?\na) En leur enseignant à voler\nb) En leur montrant des refuges dans la forêt\nc) En leur donnant de la nourriture",
-        "réponse": "b) En leur montrant des refuges dans la forêt"
-      },
-      {
-        "id": 42,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis une vague, mais aussi une histoire,\nDans les récits, je façonne les côtes,\nOn me craint et on m'honore,\nQui suis-je ?",
-        "réponse": "La mer",
-        "explication": "Élément central des légendes kanak."
-      },
-      {
-        "id": 43,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un lieu de rassemblement.\nIndice 2 : Les clans s'y réunissent pour la coutume.\nIndice 3 : Une grande case m'abrite.\nIndice 4 : Je suis un lieu célèbre.",
-        "réponse": "Le centre culturel de Tjibaou"
-      },
-      {
-        "id": 44,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un déterminant possessif,\nMon second peut transporter des fruits,\nMon tout est une montagne.",
-        "réponse": "Le Mont Panié",
-        "explication": "\"Mon\" (mont) + “Panié” (panier)"
-      },
-      {
-        "id": 45,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Pourquoi Nimurë, dans le conte “Nimurë, l'igname du chef”, est-elle allée à Kôdaa ?\na) Pour chercher du bois\nb) Pour pêcher des crabes\nc) Pour puiser de l'eau",
-        "réponse": "b) Pour pêcher des crabes"
-      },
-      {
-        "id": 46,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un murmure sous la terre,\nDans les grottes, je façonne des sculptures,\nLes anciens m'entendaient chanter,\nQui suis-je ?",
-        "réponse": "L'eau souterraine",
-        "explication": "La Nouvelle-Calédonie possède des grottes calcaires où l'eau souterraine sculpte des stalactites et stalagmites."
-      },
-      {
-        "id": 47,
-        "type": "charade",
-        "titre": "Charade !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Mon premier est un pronom masculin,\nMon second se lance pour jouer,\nMon troisième se trouve à la boulangerie,\nMon tout est une destination célèbre de Nouvelle-Calédonie.",
-        "réponse": "Île des Pins",
-        "explication": "\"Îles\" (il) + \"des\" (dé) + “pins” (pain) = approximation pour l'Île des Pins."
-      },
-      {
-        "id": 48,
-        "type": "choix",
-        "titre": "QCM",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Quel est ce lieu où l'on trouve des gravures anciennes laissées par les ancêtres ?\na) Le site de Montfaoué\nb) Les grottes d'Ouvéa\nc) Les cascades de Tao\nd) La baie d'Upi",
-        "réponse": "a) Le site de Montfaoué",
-        "explication": "Le site des pétroglyphes de Montfaoué est célèbre pour ses gravures anciennes."
-      },
-      {
-        "id": 49,
-        "type": "reflexion",
-        "titre": "Devinette !",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Je suis un lien, mais pas une corde,\nDans la coutume, je scelle les promesses,\nOn me donne avec respect,\nQui suis-je ?",
-        "réponse": "La parole"
-      },
-      {
-        "id": 50,
-        "type": "indices",
-        "titre": "Énigme à indices",
-        "logo": "./assets/logo_enigme.png",
-        "énigme": "Indice 1 : Je suis un reptile discret.\nIndice 2 : Mes couleurs me cachent dans les broussailles.\nIndice 3 : Je suis unique aux forêts calédoniennes.\nIndice 4 : Mon nom évoque une petite merveille.",
-        "réponse": "Le gecko de Leach/Gecko géant"
-      }
-    ],
+  "enigmes": [
+    {
+      "id": 1,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un arbre qui donne à manger,\nMon tronc est droit, ma tête est légère.\nJe porte des fruits qui tombent sans bruit,\nEt mon eau est fraîche, même sous le soleil brûlant.",
+      "réponse": "Le cocotier"
+    },
+    {
+      "id": 2,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un personnage qui a sauvé un ami,\nMais il a ri de ma tête chauve, oh quel ennui !\nJe l'ai puni avec une épine pointue,\nMaintenant, nous sommes séparés, sans amitié.",
+      "réponse": "Le rat du conte “le poulpe et le rat”"
+    },
+    {
+      "id": 3,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis porté par les vagues,\nMais je raconte les origines,\nDans les îles Loyauté, on me sculpte,\nQui suis-je ?",
+      "réponse": "La pirogue",
+      "explication": "Symbole de navigation et de récits ancestraux, souvent sculptés dans les traditions des Loyauté."
+    },
+    {
+      "id": 4,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un arbre sacré.\nIndice 2 : Mon bois sert à construire les cases.\nIndice 3 : Je suis lié aux ancêtres dans les légendes.\nIndice 4 : On me trouve souvent près des lieux de culte.",
+      "réponse": "Le pin colonnaire",
+      "explication": "Cet arbre est vénéré et utilisé dans la construction traditionnelle."
+    },
+    {
+      "id": 5,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un bug sur ordinateur.\nMon deuxième est un pronom.\nMon tout est un trésor turquoise qui fait la fierté de la Nouvelle-Calédonie.",
+      "réponse": "Lagon",
+      "explication": "\"Lag\" (bug) + \"on\" (pronom) = Lagon, les eaux turquoise de la Nouvelle-Calédonie."
+    },
+    {
+      "id": 6,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel est cet objet offert dans la coutume pour demander pardon/d'accueil ?\na) Une natte\nb) Un igname\nc) Un coquillage\nd) Une hache",
+      "réponse": "a) Une natte",
+      "explication": "Les nattes sont souvent échangées dans les gestes coutumiers."
+    },
+    {
+      "id": 7,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un oiseau, mais pas pour voler,\nDans les contes, je parle et je conseille,\nÀ Hienghène, je suis une roche,\nQui suis-je ?",
+      "réponse": "La Poule de Hienghène",
+      "explication": "Cette formation rocheuse évoque un oiseau et inspire des légendes."
+    },
+    {
+      "id": 8,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est l'endroit où je m'endors,\nMon second est une personne qui amusait les rois,\nMon tout est une île où les esprits dansent.",
+      "réponse": "Lifou",
+      "explication": "\"Li\" (article) + \"fou\" (le feu brûle fort) = Lifou, île des Loyauté riche en légendes."
+    },
+    {
+      "id": 9,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel poisson est lié à une légende sur la création des rivières ?\na) La carangue\nb) Le poisson-perroquet\nc) Le requin\nd) La murène",
+      "réponse": "d) La murène",
+      "explication": "Dans certains récits, la murène creuse les cours d'eau."
+    },
+    {
+      "id": 10,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "On me cultive, on me partage,\nSymbole de vie et héritage.\nQui suis-je ?",
+      "réponse": "L'igname",
+      "explication": "Aliment central et symbole familial dans la culture kanak."
+    },
+    {
+      "id": 11,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un lieu de mystère.\nIndice 2 : On dit que des âmes y errent.\nIndice 3 : À Bourail, je suis profond.\nIndice 4 : Mon nom évoque la peur.",
+      "réponse": "Le gouffre de Bourail",
+      "explication": "Associé à des récits mystérieux locaux."
+    },
+    {
+      "id": 12,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Un enfant calme nommé Pacifique crée une île magnifique protégée par une barrière de corail, qui donne naissance à trois enfants.\nDevine le conte !",
+      "réponse": "L'amour du Pacifique"
+    },
+    {
+      "id": 13,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel élément naturel représente la force des ancêtres ?\na) Le vent\nb) La mer\nc) La pierre\nd) Le feu",
+      "réponse": "c) La pierre",
+      "explication": "Les pierres sacrées sont des symboles ancestraux."
+    },
+    {
+      "id": 14,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une danse qui tourne en spirale,\nAvec tambours et écorces, je rythme le cercle.\nHommes et femmes séparés, mais unis dans le mouvement.\nQui suis-je ?",
+      "réponse": "Le pilou",
+      "explication": "Le pilou, une danse traditionnelle kanak de Nouvelle-Calédonie."
+    },
+    {
+      "id": 15,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je me nourris de fruits,\nJe vis la nuit,\nJe suis un animal emblématique des forêts calédoniennes.\nQui suis-je ?",
+      "réponse": "Roussette"
+    },
+    {
+      "id": 16, 
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel arbre sert de refuge dans le conte “Nimurë, l'igname du chef” ?\na) Le cocotier\nb) Le banyan\nc) Le flamboyant\nd) Le tamanou",
+      "réponse": "b) Le banyan",
+      "explication": "Ses racines aériennes abritent des esprits dans les récits."
+    },
+    {
+      "id": 17,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une étoffe,\nDans la coutume, je lie les clans,\nOn me plie avec soin,\nQui suis-je ?",
+      "réponse": "Le manou",
+      "explication": "Étoffe offerte lors des échanges coutumiers."
+    },
+    {
+      "id": 18,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un animal marin.\nIndice 2 : Dans les contes, je suis un gardien.\nIndice 3 : Mon dos porte des légendes.",
+      "réponse": "La tortue",
+      "explication": "Animal sacré dans les récits des Loyauté."
+    },
+    {
+      "id": 19,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un coquillage géant,\nJe me renferme quand on m'approche trop,\nJe filtre l'eau pour survivre,\nJe suis un trésor pour les hommes.",
+      "réponse": "Le bénitier"
+    },
+    {
+      "id": 20,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un des oiseaux les plus intelligents du monde. Qui suis-je ?\na) Le cagou\nb) Le notou\nc) Le corbeau calédonien\nd) La roussette",
+      "réponse": "c) Le corbeau calédonien"
+    },
+    {
+      "id": 21,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un esprit guide,\nDans les récits, je forme un lien entre ciel et terre,\nJe veille sur les lutins et les créatures de la mer et de la forêt,\nJe suis à l'origine de la vie et de la sagesse.\nQui suis-je ?",
+      "réponse": "Kanaké",
+      "explication": "Dans le mythe kanak, Kanaké est un esprit lutin qui joue un rôle central dans la création et l'enseignement. Il guide Téâ Kanaké, le premier homme, et lui apprend à vivre en harmonie avec la nature et les esprits."
+    },
+    {
+      "id": 22,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un cadeau de la lune,\nNé d'une igname blessée,\nJe vole des restes pour survivre,\nMais je suis le fils que vous attendiez.",
+      "réponse": "L'enfant igname",
+      "explication": "Dans cette légende, l'enfant igname est un cadeau de la lune, né après qu'une igname ait été blessée."
+    },
+    {
+      "id": 23,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quelle danse célèbre les ancêtres ?\na) Le haka\nb) Le pilou\nc) La valse calédonienne\nd) Le tamouré",
+      "réponse": "b) Le pilou",
+      "explication": "Danse rituelle kanak."
+    },
+    {
+      "id": 24,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis rayé, marin et terrestre,\nVenimeux mais rarement agressif.\nJe chasse en mer, je me repose sur terre.\nQui suis-je ?",
+      "réponse": "Le tricot rayé"
+    },
+    {
+      "id": 25,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis une montagne.\nIndice 2 : On dit que j'abrite un esprit.\nIndice 3 : Près de Koné, je domine.\nIndice 4 : Mon nom est un mystère.",
+      "réponse": "Le Mont Panié",
+      "explication": "Point culminant, entouré de légendes."
+    },
+    {
+      "id": 26,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un pronom possessif,\nMon second est le diable des mers,\nMon tout est un lieu de légendes dans les Loyauté.",
+      "réponse": "Maré",
+      "explication": "\"Ma\" (possessif) + \"raie\" = Maré, île riche en récits traditionnels."
+    },
+    {
+      "id": 27,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel élément est souvent utilisé pour sculpter les flèches faîtières ?\na) Le gaïac\nb) Le bois de houp\nc) Le santal\nd) Le bambou",
+      "réponse": "b) Le bois de houp",
+      "explication": "Arbre sacré, le houp est prisé pour les sculptures rituelles."
+    },
+    {
+      "id": 28,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une épreuve mais aussi une aide,\nDans les contes, je parle aux marins,\nOn m'écoute pour naviguer,\nQui suis-je ?",
+      "réponse": "Le vent",
+      "explication": "Dans les récits de navigation kanak, le vent est un esprit communicant."
+    },
+    {
+      "id": 29,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis une créature de la mer.\nIndice 2 : Dans certaines cultures, je suis un symbole de force et de protection.\nIndice 3 : Je suis un animal totem.",
+      "réponse": "Le requin",
+      "explication": "Animal totem dans certaines histoires côtières."
+    },
+    {
+      "id": 30,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une tour qui guide les marins.\nJe mesure 56 mètres de haut.\nJe suis situé sur une petite île au large de Nouméa.\nJe suis une destination touristique en Nouvelle-Calédonie.",
+      "réponse": "Le phare Amédée"
+    },
+    {
+      "id": 31,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un coquillage marin,\nMon intérieur est une spirale divine,\nLes anciens me voyaient comme un navire,\nEt mon nom est lié à la mer et au ciel.",
+      "réponse": "Le nautile"
+    },
+    {
+      "id": 32,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une flèche, mais pas pour tirer,\nAu sommet des cases je veille,\nEn bois, je pointe le ciel,\nQui suis-je ?",
+      "réponse": "La flèche faîtière",
+      "explication": "Sculpture symbolique sur les cases kanak, représentant les ancêtres."
+    },
+    {
+      "id": 33,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un pronom qui rassemble,\nMon second est un adverbe pour s'opposer,\nMon troisième est une voyelle,\nMon tout est une ville.",
+      "réponse": "Nouméa",
+      "explication": "\"Nous\" + \"mais\" = Nouméa, avec ses récits historiques et culturels."
+    },
+    {
+      "id": 34,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Dans le conte “La leçon du bénitier”, pourquoi le grand frère se personally-t-il en danger ?\na) Parce qu'il tombe dans un trou et est coincé\nb) Parce que la marée monte et l'eau le submerge\nc) Parce que des animaux l'attaquent\nd) Parce qu'il est impossible d'ouvrir le bénitier",
+      "réponse": "b) Parce que la marée monte et l'eau le submerge"
+    },
+    {
+      "id": 35,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis le plus petit, mais le plus sage,\nRejeté par mes frères, je réussis là où ils échouent,\nJe déterre avec patience ce que d'autres ne peuvent,\nEt je deviens le chef, malgré leur mépris.\nQui suis-je ?",
+      "réponse": "Le plus jeune frère du mythe de Lifou “Les 5 frères”",
+      "explication": "Dans cette histoire, le plus jeune frère, malgré son apparence fragile, réussit à déterrer le magnania là où ses frères ont échoué."
+    },
+    {
+      "id": 36,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un oiseau unique.\nIndice 2 : Je ne vole pas, mais je cours.\nIndice 3 : Mon cri est un aboiement.\nIndice 4 : Je suis une espèce endémique de la Nouvelle-Calédonie.",
+      "réponse": "Le cagou"
+    },
+    {
+      "id": 37,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un mot qu'on utilise pour choisir,\nMon second est un signe de victoire,\nMon troisième est une voyelle,\nMon tout est une île de récits des Loyautés.",
+      "réponse": "Ouvéa",
+      "explication": "\"Ou\" + \"v\" + “a” = Ouvéa, île des Loyauté."
+    },
+    {
+      "id": 38,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quels enfants donne l'île à Pacifique dans le conte L'amour de Pacifique ?\na) Ouvéa, Lifou et Maré\nb) Nouméa, Bourail et Koné\nc) Île des Pins, Belep et Hienghène",
+      "réponse": "a) Ouvéa, Lifou et Maré"
+    },
+    {
+      "id": 39,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Deux frères pêchent sur un récif,\nL'un vole toujours les trouvailles de l'autre,\nMais un jour, il se retrouve piégé,\nEt le plus jeune frère le libère après une promesse.\nQuel est le titre de cette histoire ?",
+      "réponse": "\"La leçon du bénitier\""
+    },
+    {
+      "id": 40,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Qu'est-ce que le poulpe lança sur le rat dans le conte “Le rat, la poule sultane et le poulpe” ?\na) Un fruit sec\nb) Une herbe coupante\nc) Une épine d'oursin\nd) Une pierre",
+      "réponse": "b) Une herbe coupante"
+    },
+    {
+      "id": 41,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Comment le cagou a-t-il aidé les autres oiseaux dans le conte “La légende du Cagou, roi des oiseaux” ?\na) En leur enseignant à voler\nb) En leur montrant des refuges dans la forêt\nc) En leur donnant de la nourriture",
+      "réponse": "b) En leur montrant des refuges dans la forêt"
+    },
+    {
+      "id": 42,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis une vague, mais aussi une histoire,\nDans les récits, je façonne les côtes,\nOn me craint et on m'honore,\nQui suis-je ?",
+      "réponse": "La mer",
+      "explication": "Élément central des légendes kanak."
+    },
+    {
+      "id": 43,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un lieu de rassemblement.\nIndice 2 : Les clans s'y réunissent pour la coutume.\nIndice 3 : Une grande case m'abrite.\nIndice 4 : Je suis un lieu célèbre.",
+      "réponse": "Le centre culturel de Tjibaou"
+    },
+    {
+      "id": 44,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un déterminant possessif,\nMon second peut transporter des fruits,\nMon tout est une montagne.",
+      "réponse": "Le Mont Panié",
+      "explication": "\"Mon\" (mont) + “Panié” (panier)"
+    },
+    {
+      "id": 45,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Pourquoi Nimurë, dans le conte “Nimurë, l'igname du chef”, est-elle allée à Kôdaa ?\na) Pour chercher du bois\nb) Pour pêcher des crabes\nc) Pour puiser de l'eau",
+      "réponse": "b) Pour pêcher des crabes"
+    },
+    {
+      "id": 46,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un murmure sous la terre,\nDans les grottes, je façonne des sculptures,\nLes anciens m'entendaient chanter,\nQui suis-je ?",
+      "réponse": "L'eau souterraine",
+      "explication": "La Nouvelle-Calédonie possède des grottes calcaires où l'eau souterraine sculpte des stalactites et stalagmites."
+    },
+    {
+      "id": 47,
+      "type": "charade",
+      "titre": "Charade !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Mon premier est un pronom masculin,\nMon second se lance pour jouer,\nMon troisième se trouve à la boulangerie,\nMon tout est une destination célèbre de Nouvelle-Calédonie.",
+      "réponse": "Île des Pins",
+      "explication": "\"Îles\" (il) + \"des\" (dé) + “pins” (pain) = approximation pour l'Île des Pins."
+    },
+    {
+      "id": 48,
+      "type": "choix",
+      "titre": "QCM",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Quel est ce lieu où l'on trouve des gravures anciennes laissées par les ancêtres ?\na) Le site de Montfaoué\nb) Les grottes d'Ouvéa\nc) Les cascades de Tao\nd) La baie d'Upi",
+      "réponse": "a) Le site de Montfaoué",
+      "explication": "Le site des pétroglyphes de Montfaoué est célèbre pour ses gravures anciennes."
+    },
+    {
+      "id": 49,
+      "type": "reflexion",
+      "titre": "Devinette !",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Je suis un lien, mais pas une corde,\nDans la coutume, je scelle les promesses,\nOn me donne avec respect,\nQui suis-je ?",
+      "réponse": "La parole"
+    },
+    {
+      "id": 50,
+      "type": "indices",
+      "titre": "Énigme à indices",
+      "logo": "./assets/logo_enigme.png",
+      "énigme": "Indice 1 : Je suis un reptile discret.\nIndice 2 : Mes couleurs me cachent dans les broussailles.\nIndice 3 : Je suis unique aux forêts calédoniennes.\nIndice 4 : Mon nom évoque une petite merveille.",
+      "réponse": "Le gecko de Leach/Gecko géant"
+    }
+  ],
 
 
-        "master": [
-          {
-            "id": 1,
-            "type": "master",
-            "titre": "Brume",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Un voile épais qui obscurcit la vue."
-          },
-          {
-            "id": 2,
-            "type": "master",
-            "titre": "Tourbillon",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Un vortex d'air ou d'eau."
-          },
-          {
-            "id": 3,
-            "type": "master",
-            "titre": "Tempête",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Un chaos de vent et de pluie."
-          },
-          {
-            "id": 4,
-            "type": "master",
-            "titre": "Rafale",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Un souffle soudain et violent."
-          },
-          {
-            "id": 5,
-            "type": "master",
-            "titre": "Éclipse",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Le soleil ou la lune masqué."
-          },
-          {
-            "id": 6,
-            "type": "master",
-            "titre": "Cyclone",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Une tempête tournoyante."
-          },
-          {
-            "id": 7,
-            "type": "master",
-            "titre": "Tremblement",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "La terre qui bouge."
-          },
-          {
-            "id": 8,
-            "type": "master",
-            "titre": "Orage",
-            "theme": "PhPhenomenes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Éclairs et tonnerre."
-          },
-          {
-            "id": 9,
-            "type": "master",
-            "titre": "Corail",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Une structure marine."
-          },
-          {
-            "id": 10,
-            "type": "master",
-            "titre": "Marée",
-            "theme": "Phénomènes & Environnement",
-            "logo": "./assets/logo_original.png",
-            "description": "Le flux de l'océan."
-          },
-          {
-            "id": 11,
-            "type": "master",
-            "titre": "Ombre",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Une silhouette sans forme."
-          },
-          {
-            "id": 12,
-            "type": "master",
-            "titre": "Spectre",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un esprit errant."
-          },
-          {
-            "id": 13,
-            "type": "master",
-            "titre": "Gardien",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un protecteur invisible."
-          },
-          {
-            "id": 14,
-            "type": "master",
-            "titre": "Augure",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un présage vivant."
-          },
-          {
-            "id": 15,
-            "type": "master",
-            "titre": "Masque",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un visage caché."
-          },
-          {
-            "id": 16,
-            "type": "master",
-            "titre": "Ancêtre",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un esprit du passé."
-          },
-          {
-            "id": 17,
-            "type": "master",
-            "titre": "Mirage",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Une vision trompeuse."
-          },
-          {
-            "id": 18,
-            "type": "master",
-            "titre": "Voix",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un murmure dans l'air."
-          },
-          {
-            "id": 19,
-            "type": "master",
-            "titre": "Envoûtement",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un charme mystique."
-          },
-          {
-            "id": 20,
-            "type": "master",
-            "titre": "Omen/Présage",
-            "theme": "Esprits & Entités Mystérieuses",
-            "logo": "./assets/logo_original.png",
-            "description": "Un signe du futur."
-          },
-          {
-            "id": 21,
-            "type": "master",
-            "titre": "Invocation",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Appeler une force."
-          },
-          {
-            "id": 22,
-            "type": "master",
-            "titre": "Rituel",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Une cérémonie sacrée."
-          },
-          {
-            "id": 23,
-            "type": "master",
-            "titre": "Malédiction",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un sort néfaste."
-          },
-          {
-            "id": 24,
-            "type": "master",
-            "titre": "Totem",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un symbole de pouvoir."
-          },
-          {
-            "id": 25,
-            "type": "master",
-            "titre": "Protection",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un bouclier mystique."
-          },
-          {
-            "id": 26,
-            "type": "master",
-            "titre": "Révélation",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Une vérité dévoilée."
-          },
-          {
-            "id": 27,
-            "type": "master",
-            "titre": "Destin",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Une force inéluctable."
-          },
-          {
-            "id": 28,
-            "type": "master",
-            "titre": "Métamorphose",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un changement de forme."
-          },
-          {
-            "id": 29,
-            "type": "master",
-            "titre": "Contrat",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un pacte magique."
-          },
-          {
-            "id": 30,
-            "type": "master",
-            "titre": "Fragment",
-            "theme": "Pouvoirs & Magie",
-            "logo": "./assets/logo_original.png",
-            "description": "Un morceau de pouvoir."
-          },
-          {
-            "id": 31,
-            "type": "master",
-            "titre": "Ruines",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Vestiges anciens."
-          },
-          {
-            "id": 32,
-            "type": "master",
-            "titre": "Pont suspendu",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Un passage fragile."
-          },
-          {
-            "id": 33,
-            "type": "master",
-            "titre": "Monolithe",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Une pierre dressée."
-          },
-          {
-            "id": 34,
-            "type": "master",
-            "titre": "Sanctuaire",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Un lieu sacré."
-          },
-          {
-            "id": 35,
-            "type": "master",
-            "titre": "Abîme",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Un gouffre sans fond."
-          },
-          {
-            "id": 36,
-            "type": "master",
-            "titre": "Cristal",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Une gemme brillante."
-          },
-          {
-            "id": 37,
-            "type": "master",
-            "titre": "Portail",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Une porte mystique."
-          },
-          {
-            "id": 38,
-            "type": "master",
-            "titre": "Pilier",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Un support céleste."
-          },
-          {
-            "id": 39,
-            "type": "master",
-            "titre": "Autel",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Un lieu d'offrande."
-          },
-          {
-            "id": 40,
-            "type": "master",
-            "titre": "Lac",
-            "theme": "Terrains & Structures",
-            "logo": "./assets/logo_original.png",
-            "description": "Une étendue d'eau."
-          },
-          {
-            "id": 41,
-            "type": "master",
-            "titre": "Trahison",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un acte de déloyauté."
-          },
-          {
-            "id": 42,
-            "type": "master",
-            "titre": "Duel",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un combat singulier."
-          },
-          {
-            "id": 43,
-            "type": "master",
-            "titre": "Pacte",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Une alliance secrète."
-          },
-          {
-            "id": 44,
-            "type": "master",
-            "titre": "Sabotage",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un acte de destruction."
-          },
-          {
-            "id": 45,
-            "type": "master",
-            "titre": "Manipulation",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un jeu d'influence."
-          },
-          {
-            "id": 46,
-            "type": "master",
-            "titre": "Illusion",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Une fausse réalité."
-          },
-          {
-            "id": 47,
-            "type": "master",
-            "titre": "Déduction",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un raisonnement logique."
-          },
-          {
-            "id": 48,
-            "type": "master",
-            "titre": "Ruse",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Une tromperie habile."
-          },
-          {
-            "id": 49,
-            "type": "master",
-            "titre": "Dilemme",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un choix difficile."
-          },
-          {
-            "id": 50,
-            "type": "master",
-            "titre": "Enigme",
-            "theme": "Stratégie & Conflits",
-            "logo": "./assets/logo_original.png",
-            "description": "Un mystère à résoudre."
-          }
-        ]
-    
-  }
+  "master": [
+    {
+      "id": 1,
+      "type": "master",
+      "titre": "Brume",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Un voile épais qui obscurcit la vue."
+    },
+    {
+      "id": 2,
+      "type": "master",
+      "titre": "Tourbillon",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Un vortex d'air ou d'eau."
+    },
+    {
+      "id": 3,
+      "type": "master",
+      "titre": "Tempête",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Un chaos de vent et de pluie."
+    },
+    {
+      "id": 4,
+      "type": "master",
+      "titre": "Rafale",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Un souffle soudain et violent."
+    },
+    {
+      "id": 5,
+      "type": "master",
+      "titre": "Éclipse",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Le soleil ou la lune masqué."
+    },
+    {
+      "id": 6,
+      "type": "master",
+      "titre": "Cyclone",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Une tempête tournoyante."
+    },
+    {
+      "id": 7,
+      "type": "master",
+      "titre": "Tremblement",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "La terre qui bouge."
+    },
+    {
+      "id": 8,
+      "type": "master",
+      "titre": "Orage",
+      "theme": "PhPhenomenes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Éclairs et tonnerre."
+    },
+    {
+      "id": 9,
+      "type": "master",
+      "titre": "Corail",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Une structure marine."
+    },
+    {
+      "id": 10,
+      "type": "master",
+      "titre": "Marée",
+      "theme": "Phénomènes & Environnement",
+      "logo": "./assets/logo_original.png",
+      "description": "Le flux de l'océan."
+    },
+    {
+      "id": 11,
+      "type": "master",
+      "titre": "Ombre",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Une silhouette sans forme."
+    },
+    {
+      "id": 12,
+      "type": "master",
+      "titre": "Spectre",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un esprit errant."
+    },
+    {
+      "id": 13,
+      "type": "master",
+      "titre": "Gardien",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un protecteur invisible."
+    },
+    {
+      "id": 14,
+      "type": "master",
+      "titre": "Augure",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un présage vivant."
+    },
+    {
+      "id": 15,
+      "type": "master",
+      "titre": "Masque",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un visage caché."
+    },
+    {
+      "id": 16,
+      "type": "master",
+      "titre": "Ancêtre",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un esprit du passé."
+    },
+    {
+      "id": 17,
+      "type": "master",
+      "titre": "Mirage",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Une vision trompeuse."
+    },
+    {
+      "id": 18,
+      "type": "master",
+      "titre": "Voix",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un murmure dans l'air."
+    },
+    {
+      "id": 19,
+      "type": "master",
+      "titre": "Envoûtement",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un charme mystique."
+    },
+    {
+      "id": 20,
+      "type": "master",
+      "titre": "Omen/Présage",
+      "theme": "Esprits & Entités Mystérieuses",
+      "logo": "./assets/logo_original.png",
+      "description": "Un signe du futur."
+    },
+    {
+      "id": 21,
+      "type": "master",
+      "titre": "Invocation",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Appeler une force."
+    },
+    {
+      "id": 22,
+      "type": "master",
+      "titre": "Rituel",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Une cérémonie sacrée."
+    },
+    {
+      "id": 23,
+      "type": "master",
+      "titre": "Malédiction",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un sort néfaste."
+    },
+    {
+      "id": 24,
+      "type": "master",
+      "titre": "Totem",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un symbole de pouvoir."
+    },
+    {
+      "id": 25,
+      "type": "master",
+      "titre": "Protection",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un bouclier mystique."
+    },
+    {
+      "id": 26,
+      "type": "master",
+      "titre": "Révélation",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Une vérité dévoilée."
+    },
+    {
+      "id": 27,
+      "type": "master",
+      "titre": "Destin",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Une force inéluctable."
+    },
+    {
+      "id": 28,
+      "type": "master",
+      "titre": "Métamorphose",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un changement de forme."
+    },
+    {
+      "id": 29,
+      "type": "master",
+      "titre": "Contrat",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un pacte magique."
+    },
+    {
+      "id": 30,
+      "type": "master",
+      "titre": "Fragment",
+      "theme": "Pouvoirs & Magie",
+      "logo": "./assets/logo_original.png",
+      "description": "Un morceau de pouvoir."
+    },
+    {
+      "id": 31,
+      "type": "master",
+      "titre": "Ruines",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Vestiges anciens."
+    },
+    {
+      "id": 32,
+      "type": "master",
+      "titre": "Pont suspendu",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Un passage fragile."
+    },
+    {
+      "id": 33,
+      "type": "master",
+      "titre": "Monolithe",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Une pierre dressée."
+    },
+    {
+      "id": 34,
+      "type": "master",
+      "titre": "Sanctuaire",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Un lieu sacré."
+    },
+    {
+      "id": 35,
+      "type": "master",
+      "titre": "Abîme",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Un gouffre sans fond."
+    },
+    {
+      "id": 36,
+      "type": "master",
+      "titre": "Cristal",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Une gemme brillante."
+    },
+    {
+      "id": 37,
+      "type": "master",
+      "titre": "Portail",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Une porte mystique."
+    },
+    {
+      "id": 38,
+      "type": "master",
+      "titre": "Pilier",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Un support céleste."
+    },
+    {
+      "id": 39,
+      "type": "master",
+      "titre": "Autel",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Un lieu d'offrande."
+    },
+    {
+      "id": 40,
+      "type": "master",
+      "titre": "Lac",
+      "theme": "Terrains & Structures",
+      "logo": "./assets/logo_original.png",
+      "description": "Une étendue d'eau."
+    },
+    {
+      "id": 41,
+      "type": "master",
+      "titre": "Trahison",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un acte de déloyauté."
+    },
+    {
+      "id": 42,
+      "type": "master",
+      "titre": "Duel",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un combat singulier."
+    },
+    {
+      "id": 43,
+      "type": "master",
+      "titre": "Pacte",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Une alliance secrète."
+    },
+    {
+      "id": 44,
+      "type": "master",
+      "titre": "Sabotage",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un acte de destruction."
+    },
+    {
+      "id": 45,
+      "type": "master",
+      "titre": "Manipulation",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un jeu d'influence."
+    },
+    {
+      "id": 46,
+      "type": "master",
+      "titre": "Illusion",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Une fausse réalité."
+    },
+    {
+      "id": 47,
+      "type": "master",
+      "titre": "Déduction",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un raisonnement logique."
+    },
+    {
+      "id": 48,
+      "type": "master",
+      "titre": "Ruse",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Une tromperie habile."
+    },
+    {
+      "id": 49,
+      "type": "master",
+      "titre": "Dilemme",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un choix difficile."
+    },
+    {
+      "id": 50,
+      "type": "master",
+      "titre": "Enigme",
+      "theme": "Stratégie & Conflits",
+      "logo": "./assets/logo_original.png",
+      "description": "Un mystère à résoudre."
+    }
+  ] 
+}
