@@ -11,7 +11,7 @@ L’application est accessible ici : [https://windtell.vercel.app/](https://wi
 - Tirage aléatoire de cartes parmi trois catégories : énigmes, événements, master.
 - Affichage des réponses et explications pour les énigmes.
 - Gestion des cartes déjà tirées pour éviter les doublons.
-- Interface responsive et adaptée à tous supports.
+- Interface responsive adaptée à tous les supports.
 
 ## Structure du projet
 
@@ -28,13 +28,13 @@ L’application est accessible ici : [https://windtell.vercel.app/](https://wi
 npm install
 ```
 
-## Lancer en local
+## Lancement en local
 
 ```sh
 npm start
 ```
 
-Pour lancer sur Android/iOS/web :
+Pour lancer sur Android, iOS ou Web :
 
 ```sh
 npm run android
