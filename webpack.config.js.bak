@@ -1,0 +1,35 @@
+const createExpoWebpackConfigAsync = require('@expo/webpack-config');
+const path = require('path');
+
+module.exports = async function (env, argv) {
+  const config = await createExpoWebpackConfigAsync(
+    {
+      ...env,
+      mode: 'production', // ou 'development' selon le contexte
+    },
+    argv
+  );
+
+  // Ajoute tes règles personnalisées si nécessaire
+  config.module.rules.push({
+    test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+    use: [
+      {
+        loader: 'file-loader',
+        options: {
+          name: '[name].[hash].[ext]',
+          outputPath: 'assets/',
+        },
+      },
+    ],
+  });
+
+  // Ajuste la sortie si besoin (optionnel, Expo gère ça par défaut)
+  config.output = {
+    ...config.output,
+    path: path.resolve(__dirname, 'web-build'),
+    filename: 'bundle.js',
+  };
+
+  return config;
+};
