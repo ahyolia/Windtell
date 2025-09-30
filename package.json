@@ -43,5 +43,8 @@
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.2"
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  }
 }
