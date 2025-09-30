@@ -1,26 +1,26 @@
 # Windtell
 
-Windtell est une application interactive autour des légendes, énigmes et événements de Nouvelle-Calédonie. Elle permet de tirer des cartes (énigmes, événements, master) pour animer des parties ou des ateliers ludiques.
+Windtell is an interactive application centered around the legends, riddles, and events of New Caledonia. It allows you to draw cards (riddles, events, master) to animate games or fun workshops.
 
-## Démo en ligne
+## Online Demo
 
-L’application est accessible ici : [https://windtell.vercel.app/](https://windtell.vercel.app/)
+The app is available here: [https://windtell.vercel.app/](https://windtell.vercel.app/)
 
-## Fonctionnalités
+## Features
 
-- Tirage aléatoire de cartes parmi trois catégories : énigmes, événements, master.
-- Affichage des réponses et explications pour les énigmes.
-- Gestion des cartes déjà tirées pour éviter les doublons.
-- Interface responsive adaptée à tous les supports.
+- Random card drawing from three categories: riddles, events, master.
+- Display of answers and explanations for riddles.
+- Management of already drawn cards to avoid duplicates.
+- Responsive interface suitable for all devices.
 
-## Structure du projet
+## Project Structure
 
-- `App.js` : Composant principal React Native.
-- `cartes.json` : Données des cartes (énigmes, événements, master).
-- `assets/` : Images et logos utilisés dans l’application.
-- `webpack.config.js` : Configuration Webpack pour Expo.
-- `package.json` : Dépendances et scripts.
-- `.expo/`, `.vercel/` : Dossiers de configuration pour Expo et Vercel.
+- `App.js`: Main React Native component.
+- `cartes.json`: Card data (riddles, events, master).
+- `assets/`: Images and logos used in the app.
+- `webpack.config.js`: Webpack configuration for Expo.
+- `package.json`: Dependencies and scripts.
+- `.expo/`, `.vercel/`: Configuration folders for Expo and Vercel.
 
 ## Installation
 
@@ -28,13 +28,13 @@ L’application est accessible ici : [https://windtell.vercel.app/](https://wi
 npm install
 ```
 
-## Lancement en local
+## Local Launch
 
 ```sh
 npm start
 ```
 
-Pour lancer sur Android, iOS ou Web :
+To run on Android, iOS, or Web:
 
 ```sh
 npm run android
@@ -42,24 +42,24 @@ npm run ios
 npm run web
 ```
 
-## Export web (pour Vercel)
+## Web Export (for Vercel)
 
 ```sh
 npm run build
 ```
 
-Le dossier `web-build/` est généré et déployé automatiquement sur Vercel.
+The `web-build/` folder is generated and automatically deployed on Vercel.
 
-## Dépendances principales
+## Main Dependencies
 
 - [Expo](https://expo.dev/)
 - [React Native](https://reactnative.dev/)
 - [Vercel](https://vercel.com/)
 
-## Auteur
+## Author
 
-© 2025 ELITZ. Tous droits réservés.
+© 2025 ELITZ. All rights reserved.
 
 ---
 
-*Pour toute question ou suggestion, n’hésite pas à ouvrir une issue sur le repo.*
+*For any questions or suggestions, feel free to open an issue on the repo.*
